@@ -13,7 +13,6 @@ print(latitude)
 print(longitude)
 
 a = (1, 2, 3)
-
 # a[0] = 7
 print(a[0])
 

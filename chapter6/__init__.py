@@ -28,7 +28,7 @@ while i <= 4:
 
         j = j + 1
 
-        print("*" , end="")
+        print("*" , end="",)
 
     print()
 
@@ -43,7 +43,7 @@ while i >= 1:
 
         j = j + 1
 
-        print("*" , end="")
+        print("*" , end="",)
 
     print()
 
@@ -61,9 +61,11 @@ while True:
         for i in range (1, num+1):
             for j in range(i):
 
-                print("*", end="")
+                print("*", end="",)
 
             print()
+
+        break
 
 
 
